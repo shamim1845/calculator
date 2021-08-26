@@ -1,0 +1,67 @@
+@import url(https://fonts.googleapis.com/css?family=Droid+Sans+Mono|Pacifico|Oxygen);
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+h1{
+    margin-top: 3rem;
+    font-family: Pacifico;
+    text-align: center;
+    color: blue;
+}
+.card{
+    font-family: Pacifico;
+    margin: 0 auto;
+    max-width: 355px;
+    text-align: center;
+    margin-top: 10px;
+    font-size: 0;
+}
+.card:hover{
+    box-shadow: 0 16px 32px 0 rgba(15, 11, 11, 0.534);
+}
+.calc-head #result{
+    font-family: Pacifico;
+width: 335px;
+height: 100px;
+font-size: 32px;
+font-weight: bold;
+text-align: right;
+letter-spacing: 1px;
+padding: 0 4px;
+border: 6px  solid black;
+border-radius: 10px 10px 0px 0px;
+}
+.calc-body{
+padding-bottom: 2px;
+border: 2px solid black;
+border-radius:0px 0px 10px 10px;
+}
+.btn{
+cursor: pointer;
+width: 87px;
+height: 70px;
+font-weight: bold;
+font-size: 16px;
+background: #1f2326;
+color: #fff;
+border-radius: 8px;
+}
+.btn-style{
+    background: purple;
+}
+
+.btn2-style{
+    background: orange;
+}
+.btn:hover{
+    background: rgb(155, 117, 123);
+}
+.btn-style:hover{
+    background-color:blue ;
+}
+.btn2-style:hover{
+    background: rgb(137, 177, 27);
+}
